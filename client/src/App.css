@@ -1,0 +1,46 @@
+@font-face {
+  font-family: obitron;
+  src: url(./assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: robotomono;
+  src: url(./assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: jbmono;
+  src: url(./assets/fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: oswald;
+  src: url(./assets/fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+html,body{
+  overflow-x: hidden;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.white{
+  color:white;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
